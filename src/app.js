@@ -11,7 +11,7 @@ function randomItem(arr) {
 }
 
 function createCard () {
-  const cardHTML = `<div class="bg-slate-100 w-[250px] h-[300px]"> .K. </div>`;
+  const cardHTML = `<div class="bg-slate-100 w-[250px] h-[350px]"> .K. </div>`;
 
   const d = document.createElement("div");
   d.innerHTML = cardHTML;
